@@ -7,4 +7,4 @@ starship
 picom
 fish 
 alacritty
-if i will add something i will add it 
+if i will forget something i will add it 
