@@ -1,7 +1,0 @@
-[2021-02-15 01:52:19.365] [sharedprocess] [info] Starting to clean up unused language packs.
-[2021-02-15 01:55:16.454] [sharedprocess] [info] Installing extension: vscodevim.vim
-[2021-02-15 01:55:17.175] [sharedprocess] [info] Downloaded extension: vscodevim.vim undefined
-[2021-02-15 01:55:17.657] [sharedprocess] [info] Extracted extension to /home/fivezerotwo/.vscode-oss/extensions/.vscodevim.vim-1.18.9: vscodevim.vim
-[2021-02-15 01:55:17.667] [sharedprocess] [info] Renamed to /home/fivezerotwo/.vscode-oss/extensions/vscodevim.vim-1.18.9
-[2021-02-15 01:55:17.671] [sharedprocess] [info] Installation completed. vscodevim.vim
-[2021-02-15 01:55:17.689] [sharedprocess] [info] Extensions installed successfully: vscodevim.vim

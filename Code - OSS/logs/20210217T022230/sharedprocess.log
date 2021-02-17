@@ -1,9 +1,0 @@
-[2021-02-17 02:22:39.830] [sharedprocess] [info] Uninstalling extension: rust-lang.rust
-[2021-02-17 02:22:39.839] [sharedprocess] [info] Successfully uninstalled extension: rust-lang.rust
-[2021-02-17 02:22:42.198] [sharedprocess] [info] Uninstalling extension: ms-python.python
-[2021-02-17 02:22:42.216] [sharedprocess] [info] Successfully uninstalled extension: ms-python.python
-[2021-02-17 02:23:14.011] [sharedprocess] [info] Starting to clean up unused language packs.
-[2021-02-17 02:29:08.799] [sharedprocess] [info] Installing extension: rust-lang.rust
-[2021-02-17 02:29:08.813] [sharedprocess] [info] Downloaded extension: rust-lang.rust undefined
-[2021-02-17 02:29:08.834] [sharedprocess] [info] Removed the extension from uninstalled list: rust-lang.rust
-[2021-02-17 02:29:08.840] [sharedprocess] [info] Extensions installed successfully: rust-lang.rust

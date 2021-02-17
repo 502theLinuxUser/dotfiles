@@ -1,7 +1,0 @@
-[2021-02-16 04:14:51.513] [sharedprocess] [info] Starting to clean up unused language packs.
-[2021-02-16 04:14:55.910] [sharedprocess] [info] Installing extension: rust-lang.rust
-[2021-02-16 04:15:10.698] [sharedprocess] [info] Downloaded extension: rust-lang.rust undefined
-[2021-02-16 04:15:11.082] [sharedprocess] [info] Extracted extension to /home/fivezerotwo/.vscode-oss/extensions/.rust-lang.rust-0.7.8: rust-lang.rust
-[2021-02-16 04:15:11.083] [sharedprocess] [info] Renamed to /home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8
-[2021-02-16 04:15:11.087] [sharedprocess] [info] Installation completed. rust-lang.rust
-[2021-02-16 04:15:11.093] [sharedprocess] [info] Extensions installed successfully: rust-lang.rust

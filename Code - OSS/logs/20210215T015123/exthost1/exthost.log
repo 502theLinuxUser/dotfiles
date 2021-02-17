@@ -1,9 +1,0 @@
-[2021-02-15 01:51:25.755] [exthost] [info] extension host started
-[2021-02-15 01:51:25.981] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python {"startup":false,"extensionId":{"value":"ms-python.python","_lower":"ms-python.python"},"activationEvent":"onLanguage:python"}
-[2021-02-15 01:51:25.981] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension
-[2021-02-15 01:51:26.196] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
-[2021-02-15 01:51:26.197] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/debug-auto-launch/dist/extension
-[2021-02-15 01:51:26.199] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
-[2021-02-15 01:51:26.199] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/git/dist/main
-[2021-02-15 01:51:26.359] [exthost] [info] extension host terminating: received terminate message from renderer
-[2021-02-15 01:51:27.370] [exthost] [info] exiting with code 0
