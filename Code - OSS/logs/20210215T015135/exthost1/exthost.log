@@ -1,0 +1,1301 @@
+[2021-02-15 01:51:37.534] [exthost] [info] extension host started
+[2021-02-15 01:51:37.721] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python {"startup":false,"extensionId":{"value":"ms-python.python","_lower":"ms-python.python"},"activationEvent":"onLanguage:python"}
+[2021-02-15 01:51:37.721] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension
+[2021-02-15 01:51:38.013] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-02-15 01:51:38.015] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2021-02-15 01:51:38.017] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-02-15 01:51:38.017] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/git/dist/main
+[2021-02-15 01:51:38.790] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-02-15 01:51:38.790] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/ms-vscode.js-debug/src/extension.js
+[2021-02-15 01:51:39.014] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-02-15 01:51:39.014] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/github/dist/extension.js
+[2021-02-15 01:51:39.392] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:51:39.392] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:51:39.577] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 302
+[2021-02-15 01:51:39.940] [exthost] [info] eager extensions activated
+[2021-02-15 01:51:41.721] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-02-15 01:51:41.721] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/emmet/dist/node/emmetNodeMain
+[2021-02-15 01:51:41.744] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-02-15 01:51:41.748] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/merge-conflict/dist/mergeConflictMain
+[2021-02-15 01:51:41.759] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-02-15 01:51:41.759] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/testing-editor-contributions/dist/extension.js
+[2021-02-15 01:51:42.435] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:51:42.435] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:51:43.284] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 303
+[2021-02-15 01:51:43.887] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:51:43.888] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:51:49.007] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 303
+[2021-02-15 01:51:49.450] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:51:49.450] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:51:50.237] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:51:50.237] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:51:51.543] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:51:51.543] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:51:51.934] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:51:51.935] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:51:52.256] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:51:52.256] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:51:53.426] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:51:53.426] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:51:53.762] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:51:53.762] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:51:54.116] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 303
+[2021-02-15 01:51:54.577] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:51:54.578] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:51:54.902] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:51:54.902] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:51:55.272] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:51:55.272] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:51:56.834] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:51:56.834] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:51:58.104] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:51:58.105] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:51:58.392] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:51:58.392] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:51:59.207] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 303
+[2021-02-15 01:51:59.444] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:51:59.444] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:52:03.096] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:52:03.096] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:52:04.318] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 303
+[2021-02-15 01:52:06.168] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:52:06.169] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:52:06.684] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:52:06.684] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:52:07.326] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:52:07.326] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:52:07.611] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:52:07.611] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:52:12.107] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 303
+[2021-02-15 01:52:12.547] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:52:12.548] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:52:13.953] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:52:13.953] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:52:14.970] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:52:14.970] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:52:15.986] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:52:15.987] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:52:16.967] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:52:16.967] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:52:17.273] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 303
+[2021-02-15 01:52:17.626] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:52:17.627] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:52:22.430] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 303
+[2021-02-15 01:52:23.547] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:52:23.548] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:52:27.583] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 303
+[2021-02-15 01:52:30.867] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:52:30.870] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:52:32.757] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 303
+[2021-02-15 01:52:35.801] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:52:35.801] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:52:52.459] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:52:52.460] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:52:59.466] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 302
+[2021-02-15 01:52:59.789] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:52:59.789] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:53:00.883] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:53:00.883] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:53:01.253] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:53:01.254] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:53:30.715] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 302
+[2021-02-15 01:53:31.143] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:53:31.143] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:53:43.515] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 302
+[2021-02-15 01:53:43.964] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:53:43.965] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:53:46.944] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:53:46.945] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:53:48.660] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 302
+[2021-02-15 01:53:49.433] [exthost] [error] [ms-python.python] provider FAILED
+[2021-02-15 01:53:49.434] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at f (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59270)
+	at Object.v [as checkProposedApiEnabled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:59217)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:39089)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at g.provideCodeLenses (/home/fivezerotwo/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:229657)
+	at l.provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:138899)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161293
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideCodeLenses (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:161271)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-15 01:53:55.765] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 302
+[2021-02-15 01:54:00.929] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 302
+[2021-02-15 01:54:06.067] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 309
+[2021-02-15 01:54:10.388] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:json"}
+[2021-02-15 01:54:10.388] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/configuration-editing/dist/configurationEditingMain
+[2021-02-15 01:54:10.391] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:json"}
+[2021-02-15 01:54:10.391] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/extension-editing/dist/extensionEditingMain
+[2021-02-15 01:54:10.410] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:json"}
+[2021-02-15 01:54:10.410] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/json-language-features/client/dist/node/jsonClientMain
+[2021-02-15 01:54:10.534] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":false,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"onLanguage:json"}
+[2021-02-15 01:54:10.534] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/npm/dist/npmMain
+[2021-02-15 01:54:11.235] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 311
+[2021-02-15 01:54:16.454] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 311
+[2021-02-15 01:54:21.600] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 312
+[2021-02-15 01:54:26.808] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 313
+[2021-02-15 01:55:14.924] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 313
+[2021-02-15 01:55:18.374] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":false,"extensionId":{"value":"vscodevim.vim","_lower":"vscodevim.vim"},"activationEvent":"*"}
+[2021-02-15 01:55:18.374] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fivezerotwo/.vscode-oss/extensions/vscodevim.vim-1.18.9/out/extension
+[2021-02-15 01:55:29.795] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-02-15 01:55:30.867] [exthost] [info] exiting with code 0

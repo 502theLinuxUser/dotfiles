@@ -1,0 +1,136 @@
+[2021-02-17 02:57:27.945] [exthost] [info] extension host started
+[2021-02-17 02:57:28.068] [exthost] [info] ExtensionService#_doActivateExtension rust-lang.rust {"startup":false,"extensionId":{"value":"rust-lang.rust","_lower":"rust-lang.rust"},"activationEvent":"onLanguage:rust"}
+[2021-02-17 02:57:28.068] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/extension.js
+[2021-02-17 02:57:28.130] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-02-17 02:57:28.130] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2021-02-17 02:57:28.132] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-02-17 02:57:28.132] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/git/dist/main
+[2021-02-17 02:57:28.148] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"extensionId":{"value":"vscodevim.vim","_lower":"vscodevim.vim"},"activationEvent":"*"}
+[2021-02-17 02:57:28.148] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fivezerotwo/.vscode-oss/extensions/vscodevim.vim-1.18.9/out/extension
+[2021-02-17 02:57:28.600] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-02-17 02:57:28.600] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/github/dist/extension.js
+[2021-02-17 02:57:28.627] [exthost] [info] eager extensions activated
+[2021-02-17 02:57:28.642] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-02-17 02:57:28.642] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/ms-vscode.js-debug/src/extension.js
+[2021-02-17 02:57:28.718] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-02-17 02:57:28.719] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/emmet/dist/node/emmetNodeMain
+[2021-02-17 02:57:28.728] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-02-17 02:57:28.728] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/merge-conflict/dist/mergeConflictMain
+[2021-02-17 02:57:28.750] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-02-17 02:57:28.750] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/testing-editor-contributions/dist/extension.js
+[2021-02-17 02:57:28.892] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 445
+[2021-02-17 02:57:31.996] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 447
+[2021-02-17 02:57:37.078] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 446
+[2021-02-17 02:57:42.147] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 446
+[2021-02-17 02:57:47.199] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 435
+[2021-02-17 02:57:52.258] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 435
+[2021-02-17 02:57:57.326] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 435
+[2021-02-17 02:58:02.386] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 435
+[2021-02-17 02:58:07.466] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 435
+[2021-02-17 02:58:12.533] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 435
+[2021-02-17 02:58:17.594] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 435
+[2021-02-17 02:58:22.652] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 435
+[2021-02-17 02:58:27.715] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 435
+[2021-02-17 02:58:32.772] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 435
+[2021-02-17 02:58:37.836] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 435
+[2021-02-17 02:58:42.888] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 435
+[2021-02-17 02:58:47.944] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 435
+[2021-02-17 02:59:13.381] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 435
+[2021-02-17 02:59:18.495] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 435
+[2021-02-17 02:59:23.568] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 435
+[2021-02-17 03:52:08.284] [exthost] [error] [rust-lang.rust] provider FAILED
+[2021-02-17 03:52:08.284] [exthost] [error] TypeError: Cannot read property 'value' of undefined
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+[2021-02-17 03:52:08.288] [exthost] [error] [rust-lang.rust] provider FAILED
+[2021-02-17 03:52:08.288] [exthost] [error] TypeError: Cannot read property 'value' of undefined
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+[2021-02-17 03:52:08.290] [exthost] [error] [rust-lang.rust] provider FAILED
+[2021-02-17 03:52:08.290] [exthost] [error] TypeError: Cannot read property 'value' of undefined
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+[2021-02-17 03:52:19.550] [exthost] [error] [rust-lang.rust] provider FAILED
+[2021-02-17 03:52:19.550] [exthost] [error] TypeError: Cannot read property 'value' of undefined
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+[2021-02-17 03:52:19.557] [exthost] [error] [rust-lang.rust] provider FAILED
+[2021-02-17 03:52:19.557] [exthost] [error] TypeError: Cannot read property 'value' of undefined
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+[2021-02-17 03:52:19.560] [exthost] [error] [rust-lang.rust] provider FAILED
+[2021-02-17 03:52:19.560] [exthost] [error] TypeError: Cannot read property 'value' of undefined
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+[2021-02-17 03:52:35.651] [exthost] [error] [rust-lang.rust] provider FAILED
+[2021-02-17 03:52:35.651] [exthost] [error] TypeError: Cannot read property 'value' of undefined
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+[2021-02-17 03:52:35.657] [exthost] [error] [rust-lang.rust] provider FAILED
+[2021-02-17 03:52:35.657] [exthost] [error] TypeError: Cannot read property 'value' of undefined
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+[2021-02-17 03:52:35.660] [exthost] [error] [rust-lang.rust] provider FAILED
+[2021-02-17 03:52:35.661] [exthost] [error] TypeError: Cannot read property 'value' of undefined
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+[2021-02-17 03:53:04.405] [exthost] [error] [rust-lang.rust] provider FAILED
+[2021-02-17 03:53:04.405] [exthost] [error] TypeError: Cannot read property 'value' of undefined
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+[2021-02-17 03:53:04.408] [exthost] [error] [rust-lang.rust] provider FAILED
+[2021-02-17 03:53:04.408] [exthost] [error] TypeError: Cannot read property 'value' of undefined
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+[2021-02-17 03:53:04.413] [exthost] [error] [rust-lang.rust] provider FAILED
+[2021-02-17 03:53:04.413] [exthost] [error] TypeError: Cannot read property 'value' of undefined
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+[2021-02-17 03:53:15.756] [exthost] [error] [rust-lang.rust] provider FAILED
+[2021-02-17 03:53:15.756] [exthost] [error] TypeError: Cannot read property 'value' of undefined
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+[2021-02-17 03:53:15.760] [exthost] [error] [rust-lang.rust] provider FAILED
+[2021-02-17 03:53:15.760] [exthost] [error] TypeError: Cannot read property 'value' of undefined
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+[2021-02-17 03:53:15.764] [exthost] [error] [rust-lang.rust] provider FAILED
+[2021-02-17 03:53:15.764] [exthost] [error] TypeError: Cannot read property 'value' of undefined
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+[2021-02-17 03:53:29.685] [exthost] [error] [rust-lang.rust] provider FAILED
+[2021-02-17 03:53:29.685] [exthost] [error] TypeError: Cannot read property 'value' of undefined
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+[2021-02-17 03:53:29.688] [exthost] [error] [rust-lang.rust] provider FAILED
+[2021-02-17 03:53:29.688] [exthost] [error] TypeError: Cannot read property 'value' of undefined
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+[2021-02-17 03:53:29.690] [exthost] [error] [rust-lang.rust] provider FAILED
+[2021-02-17 03:53:29.690] [exthost] [error] TypeError: Cannot read property 'value' of undefined
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+[2021-02-17 03:53:53.386] [exthost] [error] [rust-lang.rust] provider FAILED
+[2021-02-17 03:53:53.386] [exthost] [error] TypeError: Cannot read property 'value' of undefined
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+[2021-02-17 03:53:53.389] [exthost] [error] [rust-lang.rust] provider FAILED
+[2021-02-17 03:53:53.389] [exthost] [error] TypeError: Cannot read property 'value' of undefined
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+[2021-02-17 03:53:53.393] [exthost] [error] [rust-lang.rust] provider FAILED
+[2021-02-17 03:53:53.393] [exthost] [error] TypeError: Cannot read property 'value' of undefined
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+[2021-02-17 03:54:06.079] [exthost] [error] [rust-lang.rust] provider FAILED
+[2021-02-17 03:54:06.079] [exthost] [error] TypeError: Cannot read property 'value' of undefined
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:20:130
+[2021-02-17 03:54:06.083] [exthost] [error] [rust-lang.rust] provider FAILED
+[2021-02-17 03:54:06.083] [exthost] [error] TypeError: Cannot read property 'value' of undefined
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:20:130
+[2021-02-17 03:54:06.087] [exthost] [error] [rust-lang.rust] provider FAILED
+[2021-02-17 03:54:06.087] [exthost] [error] TypeError: Cannot read property 'value' of undefined
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:20:130

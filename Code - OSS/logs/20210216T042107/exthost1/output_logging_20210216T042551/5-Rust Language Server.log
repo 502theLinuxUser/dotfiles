@@ -1,0 +1,2 @@
+[2021-02-16T04:25:51Z ERROR rls::actions] failed to fetch project model, using fallback: failed to read `/home/fivezerotwo/Cargo.toml`
+[2021-02-16T04:25:54Z ERROR rls::actions] failed to fetch project model, using fallback: failed to read `/home/fivezerotwo/Cargo.toml`
