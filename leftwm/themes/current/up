@@ -36,3 +36,6 @@ do
   let index=index+1
 done
 
+setxkbmap us
+xrandr --output DP-0 --mode 3840x2160
+picom -b --experimental-backends

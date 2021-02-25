@@ -20,6 +20,14 @@ key = "f"
 
 [[keybind]]
 command = "Execute"
+value = "discord"
+modifier = ["modkey"]
+key = "g"
+
+
+
+[[keybind]]
+command = "Execute"
 value = "rofi -show drun"
 modifier = ["modkey"]
 key = "r"
