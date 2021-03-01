@@ -1,0 +1,9 @@
+[2021-02-28 02:35:04.896] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/fivezerotwo/.config/Code - OSS/User/snippets'
+[2021-02-28 02:35:05.057] [sharedprocess] [info] Deleted from disk rust-lang.rust /home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8
+[2021-02-28 02:35:26.222] [sharedprocess] [info] Installing extension: rust-lang.rust
+[2021-02-28 02:35:26.691] [sharedprocess] [info] Downloaded extension: rust-lang.rust undefined
+[2021-02-28 02:35:27.071] [sharedprocess] [info] Extracted extension to /home/fivezerotwo/.vscode-oss/extensions/.rust-lang.rust-0.7.8: rust-lang.rust
+[2021-02-28 02:35:27.072] [sharedprocess] [info] Renamed to /home/fivezerotwo/.vscode-oss/extensions/rust-lang.rust-0.7.8
+[2021-02-28 02:35:27.075] [sharedprocess] [info] Installation completed. rust-lang.rust
+[2021-02-28 02:35:27.086] [sharedprocess] [info] Extensions installed successfully: rust-lang.rust
+[2021-02-28 02:35:44.886] [sharedprocess] [info] Starting to clean up unused language packs.

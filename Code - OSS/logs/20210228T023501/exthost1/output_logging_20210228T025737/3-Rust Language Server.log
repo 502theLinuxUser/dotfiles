@@ -1,0 +1,2 @@
+thread 'request-worker-2' panicked at 'byte index 18446744073709551615 is out of bounds of `:y`', /cargo/registry/src/github.com-1ecc6299db9ec823/racer-2.1.40/src/racer/scopes.rs:240:37
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
